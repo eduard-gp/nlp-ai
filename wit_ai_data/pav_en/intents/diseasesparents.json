@@ -1,0 +1,7 @@
+{
+    "name": "diseasesparents",
+    "entities": [
+        "person:person",
+        "relative:relative"
+    ]
+}

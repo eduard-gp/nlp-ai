@@ -1,0 +1,56 @@
+[
+    {
+        "dataset": "conll2003",
+        "language": "en",
+        "ner_tags": {
+            "[PAD]": 0,
+            "B-LOC": 1,
+            "B-MISC": 2,
+            "B-ORG": 3,
+            "B-PER": 4,
+            "I-LOC": 5,
+            "I-MISC": 6,
+            "I-ORG": 7,
+            "I-PER": 8,
+            "O": 9
+        }
+    },
+    {
+        "dataset": "ronec",
+        "language": "ro",
+        "ner_tags": {
+            "[PAD]": 0,
+            "B-DATETIME": 1,
+            "B-EVENT": 2,
+            "B-FACILITY": 3,
+            "B-GPE": 4,
+            "B-LANGUAGE": 5,
+            "B-LOC": 6,
+            "B-MONEY": 7,
+            "B-NAT_REL_POL": 8,
+            "B-NUMERIC": 9,
+            "B-ORDINAL": 10,
+            "B-ORG": 11,
+            "B-PERIOD": 12,
+            "B-PERSON": 13,
+            "B-QUANTITY": 14,
+            "B-WORK_OF_ART": 15,
+            "I-DATETIME": 16,
+            "I-EVENT": 17,
+            "I-FACILITY": 18,
+            "I-GPE": 19,
+            "I-LANGUAGE": 20,
+            "I-LOC": 21,
+            "I-MONEY": 22,
+            "I-NAT_REL_POL": 23,
+            "I-NUMERIC": 24,
+            "I-ORDINAL": 25,
+            "I-ORG": 26,
+            "I-PERIOD": 27,
+            "I-PERSON": 28,
+            "I-QUANTITY": 29,
+            "I-WORK_OF_ART": 30,
+            "O": 31
+        }
+    }
+]

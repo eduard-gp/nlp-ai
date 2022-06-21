@@ -1,0 +1,6 @@
+{
+    "name": "symptomschanges",
+    "entities": [
+        "place:place"
+    ]
+}

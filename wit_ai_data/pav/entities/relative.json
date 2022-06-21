@@ -1,0 +1,48 @@
+{
+    "name": "relative",
+    "roles": [
+        "relative"
+    ],
+    "lookups": [
+        "free-text",
+        "keywords"
+    ],
+    "keywords": [
+        {
+            "keyword": "Parintii",
+            "synonyms": [
+                "parintii"
+            ]
+        },
+        {
+            "keyword": "familie",
+            "synonyms": [
+                "familie"
+            ]
+        },
+        {
+            "keyword": "mama",
+            "synonyms": [
+                "mama"
+            ]
+        },
+        {
+            "keyword": "tata",
+            "synonyms": [
+                "tata"
+            ]
+        },
+        {
+            "keyword": "tatal",
+            "synonyms": [
+                "tatal"
+            ]
+        },
+        {
+            "keyword": "tat\u0103l",
+            "synonyms": [
+                "tat\u0103l"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "name": "visitreason",
+    "entities": [
+        "person:person",
+        "place:place"
+    ]
+}

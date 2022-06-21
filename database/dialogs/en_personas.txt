@@ -1,0 +1,1143 @@
+<-- START PERSONA -->
+
+D: case=Case No. 1 - M.I.
+D: sex=f
+D: age=55
+D: profession=retired
+D: annotations=former smoker
+
+L: visit_reason
+Q: What is the reason for the presentation at the hospital?
+A: I feel like it is hard to breathe and I lost my consciousness right before calling the ambulance. 
+
+L: symptoms_start
+Q: When did the symptoms start?
+A: I have been breathing harder for 5 days and I lost consciousness 2 hours ago.
+
+L: symptoms_circumstances
+Q: What are the circumstances of the onset of symptoms?
+A: I breathe hard as I make an effort, I lost consciousness while sitting at the table; I didn't feel anything, I woke up with my head on the table and my husband shouting at me.
+
+L: symptoms_changes
+Q: Were there any changes in symptoms from onset to presentation?
+A: Initially I was tired after any mild effort, but in the last 2 days I felt tired when I got out of bed.
+
+L: diseases_parents
+Q: Do you know of any illness that your mother or father suffers from?
+A: No.
+
+L: diseases_personal
+Q: What diseases do you know?
+Q: What illness do you suffer from?
+Q: What diseasses do you suffer from?
+A: Colon cancer 3 years ago, operated and underwent chemotherapy and I have also been diagnosed recently with cancer recurrence.
+
+L: chronic_treatment
+Q: What is the chronic treatment?
+A: Atorvastatin 40 mg QD. 
+
+L: surgeries
+Q: Surgery?
+A: Right hemicolectomy 3 years ago.
+
+L: chest_pain
+Q: Has pain in the center of the chest, as a pressure, exertion or cold, ever occurred?
+A: No.
+
+L: fainting_symptoms
+Q: Fainting or loss of consciousness in your medical history?
+A: Today was the first time I lost my consciousness.
+
+L: palpitations_symptoms
+Q: Palpitations in history?
+A: Ever since I get tired easily, I feel like my heart is beating faster.
+
+L: cough_symptoms
+Q: Have you had a coughing sputum in your recent history?
+A: No.
+
+L: fever_symptoms
+Q: Have you had a fever or chills in your recent history?
+A: No.
+
+L: greetings
+Q: Hello!
+Q: Hi!
+Q: Good morning!
+Q: Good afternoot!
+Q: Good evening!
+Q: Hey!
+A: Hello!
+A: Hi!
+A: Good morning!
+A: Good afternoot!
+A: Good evening!
+A: Hey!
+<-- END PERSONA -->
+
+
+
+<-- START PERSONA -->
+D: case=Case No. 2 - S.I.
+D: sex=m
+D: age=60
+D: profession=teacher
+D: annotations=smoker
+
+L: visit_reason
+Q: What is the reason for the presentation at the hospital?
+A: I'm suffocating, I'm out of breath.
+
+L: symptoms_start
+Q: When did the symptoms start?
+A: My symptoms starded 2 days ago and got worse by the minute.
+
+L: symptoms_circumstances
+Q: What are the circumstances of the onset of symptoms?
+A: I have been feeling very tired in the last two days and I also feel like I'm suffocating even without doing anything, I couldn't even call the ambulance alone - I run out of breath even if I talk.
+
+L: symptoms_changes
+Q: Were there any changes in symptoms from onset to presentation?
+A: It seems to me that I have been suffocating worse and worse since 2 days ago.
+
+L: diseases_parents
+Q: Do you know of any illness that your mother or father suffers from?
+A: Father - lung cancer.
+
+L: diseases_personal
+Q: What diseases do you know?
+A: Hodgkin's lymphoma 2 years ago, chemo-treated, in remission at last assessment (6 months ago) Obesity (BMI = 42 kg / m2)
+
+L: chronic_treatment
+Q: What is the chronic treatment?
+A: No treatment.
+
+L: surgeries
+A: Surgery?
+Q: Laterocervical lymph node biopsy 2 years ago. Cholecystectomy 5 years ago.
+
+L: chest_pain
+Q: Has pain in the center of the chest, as a pressure, exertion or cold, ever occurred?
+A: No.
+
+L: fainting_symptoms
+Q: Fainting or loss of consciousness in history?
+A: No.
+
+L: palpitations_symptoms
+Q: Palpitations in history?
+A: No.
+
+L: cough_symptoms
+Q: Have you had a coughing sputum in your recent history?
+A: No.
+
+L: fever_symptoms
+Q: Have you had a fever or chills in your recent history?
+A: No.
+
+L: greetings
+Q: Hello!
+Q: Hi!
+Q: Good morning!
+Q: Good afternoot!
+Q: Good evening!
+Q: Hey!
+A: Hello!
+A: Hi!
+A: Good morning!
+A: Good afternoot!
+A: Good evening!
+A: Hey!
+
+<-- END PERSONA -->
+ 
+<-- START PERSONA -->
+
+D: case=Case No. 3 - O.V.
+D: sex=m
+D: age=85
+D: profession=retired
+D: annotations=non-smoker
+D: annotations=Patient institutionalized in a nursing home, found by the ambulance crew with peripheral oxygen saturation of 50% and intubated at the spot.From the anamnesis of the asylum care staff:
+
+L: visit_reason
+Q: What is the reason for the presentation at the hospital?
+A: I noticed that he was breathing hard and had low blood pressure, 70/40 mm Hg
+
+L: symptoms_start
+Q: When did the symptoms start?
+A: 3 days ago he started breathing harder and harder. 
+
+L: symptoms_circumstances
+Q: What are the circumstances of the onset of symptoms?
+A: He stays in bed because he can't move anymore. For 3 days I noticed that he was breathing harder; he did not complain about anything, but he expressed difficulty because he had a stroke 2 years ago
+
+L: symptoms_changes
+Q: Were there any changes in symptoms from onset to presentation?
+A: Initially he had a good blood pressure, but this morning I kept taking his blood pressure and I always found it very low, plus he didn't answer when I shouted at him, he opened his eyes but didn’t answer so I called an ambulance.
+
+L: diseases_parents
+Q: Do you know of any illness your parents suffered from?
+A: Unknown.
+
+L: diseases_personal
+Q: What diseases is known?
+A: Ischemic stroke 2 years ago and he has arterial hypertension. 
+
+L: chronic_treatment
+Q: What is the chronic treatment?
+A: Aspenter 75 mg / day, Amlodipine 10 mg / day
+
+L: surgeries
+Q: Surgery?
+A: Lumbar disc herniation 10 years ago.
+
+L: chest_pain
+Q: Has pain in the center of the chest, as a pressure, exertion or cold, ever occurred?
+A: No.
+
+L: fainting_symptoms
+Q: Fainting or loss of consciousness in history?
+A: No.
+
+L: palpitations_symptoms
+Q: Palpitations in history?
+A: No.
+
+L: cough_symptoms
+Q: Have you had a coughing sputum in your recent history?
+A: No.
+
+L: fever_symptoms
+Q: Did you have a fever or chills in your recent history?
+A: No.
+
+L: greetings
+Q: Hello!
+Q: Hi!
+Q: Good morning!
+Q: Good afternoot!
+Q: Good evening!
+Q: Hey!
+A: Hello!
+A: Hi!
+A: Good morning!
+A: Good afternoot!
+A: Good evening!
+A: Hey!
+
+<-- END PERSONA -->
+
+<-- START PERSONA -->
+
+D: case=Case No. 4 - N.A.
+D: sex=m
+D: age=62
+D: annotations=smoker
+
+L: visit_reason
+Q: What is the reason for the presentation at the hospital?
+A: The patient suffered a cardiorespiratory arrest. He is brought to the hospital by the ambulance crew, being intubated and mechanically ventilated.
+
+L: symptoms_start
+Q: When did the symptoms start?
+A: He had no complain before the cardiac arrest happened (information from the witnesses).
+
+L: symptoms_circumstances
+Q: What are the circumstances of the onset of symptoms?
+A: The cardiopulmonary arrest occurred at Otopeni Airport, shortly after landing from a vacation in New Zealand, after a 14 hour flight.
+
+L: symptoms_changes
+Q: Were there any changes in symptoms from onset to presentation?
+A: No.
+
+L: diseases_parents
+Q: Do you know of any illness that your mother or father suffers from?
+A: No. 
+
+L: diseases_personal
+Q: What diseases do you know?
+A: Obesity (BMI = 41 kg / m2)
+
+L: chronic_treatment
+Q: What is the chronic treatment?
+A: No treatment.
+
+L: surgeries
+Q: Surgery?
+A: Cholecystectomy 3 years ago and an intervention for hydrostatic varicose veins 2 years ago.
+
+L: chest_pain
+Q: Has pain in the center of the chest, as a pressure, exertion or cold, ever occurred?
+A: No.
+
+L: fainting_symptoms
+Q: Fainting or loss of consciousness in history?
+A: No. 
+
+L: palpitations_symptoms
+Q: Palpitations in history?
+A: Unknown. 
+
+L: cough_symptoms
+Q: Have you had a coughing sputum in your recent history?
+A: No.
+
+L: fever_symptoms
+Q: Have you had a fever or chills in your recent history?
+A: No.
+
+L: greetings
+Q: Hello!
+Q: Hi!
+Q: Good morning!
+Q: Good afternoot!
+Q: Good evening!
+Q: Hey!
+A: Hello!
+A: Hi!
+A: Good morning!
+A: Good afternoot!
+A: Good evening!
+A: Hey!
+
+<-- END PERSONA -->
+
+<-- START PERSONA -->
+
+D: case=Case No. 5 - G.N.
+D: sex=m
+D: age=23
+D: annotations=non-smoker
+D: annotations=Patient with spastic tetraparesis, mental retardation, immobilized in bed. Impossible history. From the family history:
+
+L: visit_reason
+Q: What is the reason for the presentation at the hospital?
+A: Difficulty breathing.
+
+L: symptoms_start
+B: When did the symptoms start?
+A: 8 hours ago.
+
+L: symptoms_circumstances
+Q: What are the circumstances of the onset of symptoms?
+A: The patient's mother was awakened by her son's rapid and heavy breathing.
+
+L: symptoms_changes
+Q: Were there any changes in symptoms from onset to presentation?
+A: No.
+
+L: diseases_parents
+Q: Does the patient's parents suffer from any illness?
+A: No.
+
+L: diseases_personal
+Q: What diseases is known?
+A: Spastic tetraparesis from birth, in the context of post-anoxic encephalopathy. Severe mental retardation.
+
+L: chronic_treatment
+Q: What is the chronic treatment?
+A: Vitamins.
+
+L: surgeries
+Q: Surgery?
+A: No.
+
+L: chest_pain
+Q: Has pain in the center of the chest, as a pressure, exertion or cold, ever occurred?
+A: The patient cannot describe symptoms.
+
+L: fainting_symptoms
+Q: Fainting or loss of consciousness in history?
+A: No.
+
+L: palpitations_symptoms
+Q: Palpitations in history?
+A: The patient cannot describe symptoms.
+
+L: cough_symptoms
+Q: Have you had a coughing sputum in your recent history?
+A: No.
+
+L: fever_symptoms
+Q: Did you have a fever or chills in your recent history?
+A: No.
+
+L: greetings
+Q: Hello!
+Q: Hi!
+Q: Good morning!
+Q: Good afternoot!
+Q: Good evening!
+Q: Hey!
+A: Hello!
+A: Hi!
+A: Good morning!
+A: Good afternoot!
+A: Good evening!
+A: Hey!
+
+<-- END PERSONA -->
+
+<-- START PERSONA -->
+
+D: case=Case No. 6 - P.P.
+D: sex=f
+D: age=27
+D: annotations=non-smoker
+D: annotations=Post-partum woman, with full-term pregnancy and cesarean delivery 2 weeks ago.
+
+L: visit_reason
+Q: What is the reason for the presentation at the hospital?
+A: Severe difficulty breathing.
+
+L: symptoms_start
+Q: When did the symptoms start?
+A: 6 hours ago. 
+
+L: symptoms_circumstances
+Q: What are the circumstances of the onset of symptoms?
+A: Difficulty breathing suddenly while breastfeeding.
+
+L: symptoms_changes
+Q: Were there any changes in symptoms from onset to presentation?
+A: No.
+
+L: diseases_parents
+Q: Do you know of any illness that your mother or father suffers from?
+A: No.
+
+L: diseases_personal
+Q: What diseases do you know?
+A: Pregnancy hypertension
+
+L: chronic_treatment
+Q: What is the chronic treatment?
+A: Dopegyt 500 mg / day.
+
+L: surgeries
+Q: Surgery?
+A: Cesarean section - 3 weeks ago
+
+L: chest_pain
+Q: Has pain in the center of the chest, as a pressure, exertion or cold, ever occurred?
+A: No.
+
+L: fainting_symptoms
+Q: Fainting or loss of consciousness in history?
+A: No.
+
+L: palpitations_symptoms
+Q: Palpitations in history?
+A: No.
+
+L: cough_symptoms
+Q: Have you had a coughing sputum in your recent history?
+A: No.
+
+L: fever_symptoms
+Q: Have you had a fever or chills in your recent history?
+A: No.
+ 
+L: greetings
+Q: Hello!
+Q: Hi!
+Q: Good morning!
+Q: Good afternoot!
+Q: Good evening!
+Q: Hey!
+A: Hello!
+A: Hi!
+A: Good morning!
+A: Good afternoot!
+A: Good evening!
+A: Hey!
+
+<-- END PERSONA -->
+
+<-- START PERSONA -->
+
+D: case=Case No. 7 - M.A.
+D: sex=m
+D: age=46
+D: profession=economist
+D: annotations=smoker
+
+L: visit_reason
+Q: What is the reason for the presentation at the hospital?
+A: My left leg swelled.
+
+L: symptoms_start
+Q: When did the symptoms start?
+A: 3 days ago, but it got bigger by day and now it is painful. 
+
+L: symptoms_circumstances
+Q: What are the circumstances of the onset of symptoms?
+A: I woke up 3 mornings ago with my left leg swollen.
+
+L: symptoms_changes
+Q: Were there any changes in symptoms from onset to presentation?
+A: Initially, the leg was swollen to the knee, but by the evening the thigh was swollen.
+
+L: diseases_parents
+Q: Do you know of any illness that your mother or father suffers from?
+A: Mother – thrombophilia.
+
+L: diseases_personal
+Q: What diseases do you know?
+A: Gangrenous cholecystitis 3 weeks ago. Dyslipidemia.
+
+L: chronic_treatment
+Q: What is the chronic treatment?
+A: Atorvastatin 20 mg / day.
+
+L: surgeries
+Q: Surgery?
+A: Cholecystectomy 3 weeks ago.
+
+L: chest_pain
+Q: Has pain in the center of the chest, as a pressure, exertion or cold, ever occurred?
+A: No.
+
+L: fainting_symptoms
+Q: Fainting or loss of consciousness in history?
+A: No.
+
+L: palpitations_symptoms
+Q: Palpitations in history?
+A: Yes, in the last 2 days I felt my heart beating faster and when I monitored my pulse I found over 100 / min.
+
+L: cough_symptoms
+Q: Have you had a coughing sputum in your recent history?
+A: No.
+
+L: fever_symptoms
+Q: Have you had a fever or chills in your recent history?
+A: 3 weeks ago, before cholecystectomy.
+
+L: greetings
+Q: Hello!
+Q: Hi!
+Q: Good morning!
+Q: Good afternoot!
+Q: Good evening!
+Q: Hey!
+A: Hello!
+A: Hi!
+A: Good morning!
+A: Good afternoot!
+A: Good evening!
+A: Hey!
+
+<-- END PERSONA -->
+
+<-- START PERSONA -->
+
+D: case=Case No. 8 - D.D.
+D: sex=f
+D: age=22
+D: profession=student
+D: annotations=non-smoker
+
+L: visit_reason
+Q: What is the reason for the presentation at the hospital?
+A: I noticed that I was out of breath even while walking around the house. 
+
+L: symptoms_start
+Q: When did the symptoms start?
+A: 4 days ago.
+
+L: symptoms_circumstances
+Q: What are the circumstances of the onset of symptoms?
+A: I breathe harder when I make an effort.
+
+L: symptoms_changes
+Q: Were there any changes in symptoms from onset to presentation?
+A: No, I've been tired for 4 days with the same amount of effort.
+
+L: diseases_parents
+Q: Do you know of any illness that your mother or father suffers from?
+A: No. 
+
+L: diseases_personal
+Q: What diseases do you know?
+A: Right leg fracture 4 weeks ago, following a ski accident, I was in hospital for a few days then 2 week bed-rest. 
+
+L: diseases_personal
+Q: What is the chronic treatment?
+A: Oral contraceptives for 2 years. Clexane 0.4 mg / day up to one week ago (while maintaining the cast)
+
+L: surgeries
+Q: Surgery?
+A: Orthopedic intervention for leg fracture, later plaster cast maintained until a week ago.
+
+L: chest_pain
+Q: Has pain in the center of the chest, as a pressure, exertion or cold, ever occurred?
+A: No.
+
+L: fainting_symptoms
+Q: Fainting or loss of consciousness in history?
+A: No.
+
+L: palpitations_symptoms
+Q: Palpitations in history?
+A: No.
+
+L: cough_symptoms
+Q: Have you had a coughing sputum in your recent history?
+A: No.
+
+L: fever_symptoms
+Q: Have you had a fever or chills in your recent history?
+A: No.
+
+L: greetings
+Q: Hello!
+Q: Hi!
+Q: Good morning!
+Q: Good afternoot!
+Q: Good evening!
+Q: Hey!
+A: Hello!
+A: Hi!
+A: Good morning!
+A: Good afternoot!
+A: Good evening!
+A: Hey!
+
+<-- END PERSONA -->
+
+<-- START PERSONA -->
+
+D: case=Case No. 9 - R.I.
+D: sex=m
+D: yeras=44
+D: profession=entrepreneur
+D: annotations=smoker
+
+L: visit_reason
+Q: What is the reason for the presentation at the hospital?
+A: I can't get enough air and my right leg is swollen.
+
+L: symptoms_start
+Q: When did the symptoms start?
+A: My right leg swelled 3 days ago, I'm tired for 2 days.
+
+L: symptoms_circumstances
+Q: What are the circumstances of the onset of symptoms?
+A: I made a trip to Austria and back about a week ago (I drove ~ 30 hours in 3 days), and the second day after I returned I woke up one morning with my foot swollen to the knee. After another day I started to breathe harder when I was walking or going up the stairs.
+
+L: symptoms_changes
+Q: Were there any changes in symptoms from onset to presentation?
+A: No.
+
+L: diseases_parents
+Q: Do you know of any illness that your mother or father suffers from?
+A: No.
+
+L: diseases_personal
+Q: What diseases do you know?
+A: I haven't been sick before.
+
+L: chronic_treatment
+Q: What is the chronic treatment?
+A: I had no chronic treatment.
+
+L: surgeries
+Q: Surgery?
+A: I had no surgery.
+
+L: chest_pain
+Q: Has pain in the center of the chest, as a pressure, exertion or cold, ever occurred?
+A: No.
+
+L: fainting_symptoms
+Q: Fainting or loss of consciousness in history?
+A: No.
+
+L: palpitations_symptoms
+Q: Palpitations in history?
+A: No.
+
+L: cough_symptoms
+Q: Have you had a coughing sputum in your recent history?
+A: No.
+
+L: fever_symptoms
+Q: Have you had a fever or chills in your recent history?
+A: No.
+
+L: greetings
+Q: Hello!
+Q: Hi!
+Q: Good morning!
+Q: Good afternoot!
+Q: Good evening!
+Q: Hey!
+A: Hello!
+A: Hi!
+A: Good morning!
+A: Good afternoot!
+A: Good evening!
+A: Hey!
+
+<-- END PERSONA -->
+
+<-- START PERSONA -->
+
+D: case=Case No. 10 - D.Z.
+D: sex=f
+D: age=31
+D: profession=accountant
+D: annotations=non-smoker
+
+L: visit_reason
+Q: What is the reason for the presentation at the hospital?
+A: I can't breathe and I feel pressure in my chest.
+
+L: symptoms_start
+Q: When did the symptoms start?
+A: This past week.
+
+L: symptoms_circumstances
+Q: What are the circumstances of the onset of symptoms?
+A: I noticed when I went to the gym that I could not make the same effort, I breathe harder, I get tired much faster. I feel a pain in the center of my chest when I try to breathe deeply, the air does not enter as it should.
+
+L: symptoms_changes
+Q: Were there any changes in symptoms from onset to presentation?
+A: Yes, I feel like I've been breathing harder and harder for a week.
+
+L: diseases_parents
+Q: Do you know of any illness that your mother or father suffers from?
+A: Mother - died by heart attach at the age of 47.
+
+L: diseases_personal
+Q: What diseases do you know?
+A: 3 miscarriages at 23, 27 and 28 years.
+
+L: chronic_treatment
+Q: What is the chronic treatment?
+A: I have no chronic treatment.
+
+L: surgeries
+Q: Surgery?
+A: I had no surgery.
+
+L: chest_pain
+Q: Has pain in the center of the chest, as a pressure, exertion or cold, ever occurred?
+A: No.
+
+L: fainting_symptoms
+Q: Fainting or loss of consciousness in history?
+A: No.
+
+L: palpitations_symptoms
+Q: Palpitations in history?
+A: No.
+
+L: cough_symptoms
+Q: Have you had a coughing sputum in your recent history?
+A: No.
+
+L: fever_symptoms
+Q: Have you had a fever or chills in your recent history?
+A: No.
+
+L: greetings
+Q: Hello!
+Q: Hi!
+Q: Good morning!
+Q: Good afternoot!
+Q: Good evening!
+Q: Hey!
+A: Hello!
+A: Hi!
+A: Good morning!
+A: Good afternoot!
+A: Good evening!
+A: Hey!
+
+<-- END PERSONA -->
+
+<-- START PERSONA -->
+
+D: case=Case No. 11 - I.C.
+D: sex=m
+D: age=55
+D: profession=salesman
+D: annotations=smoker
+
+L: visit_reason
+Q: What is the reason for the presentation at the hospital?
+A: For palpitations and fainting.
+
+L: symptoms_start
+Q: When did the symptoms start?
+A: 4 days ago I started feeling palpitations but today I fainted while doing mild effort. 
+
+L: symptoms_circumstances
+Q: What are the circumstances of the onset of symptoms?
+A: For 4 days I feel my heart beating very fast and regularly, especially if I make some effort, and today while trying to carry some crates I fainted
+
+L: symptoms_changes
+Q: Were there any changes in symptoms from onset to presentation?
+A: No.
+
+L: diseases_parents
+Q: Do you know of any illness that your mother or father suffers from?
+A: My mother has diabetes and my father died of a stroke at 67 years old. 
+
+L: diseases_personal
+Q: What diseases do you know?
+A: Left leg thrombophlebitis 5 years ago. Left leg post-thrombotic syndrome. Chronic venous insufficiency of the lower limbs.
+
+L: chronic_treatment
+Q: What is the chronic treatment?
+A: Detralex, Aspenter; I received treatment with Thrombostop 6 months after thrombophlebitis, I haven't taken it for over 4 years.
+
+L: surgeries
+Q: Surgery?
+A: No.
+
+L: chest_pain
+Q: Has pain in the center of the chest, as a pressure, exertion or cold, ever occurred?
+A: No.
+
+L: fainting_symptoms
+Q: Fainting or loss of consciousness in history?
+A: No, today was the first time I ever fainted. 
+
+L: palpitations_symptoms
+Q: Palpitations in history?
+A: Until 4 days ago I did not feel any palpitations.
+
+L: cough_symptoms
+Q: Have you had a coughing sputum in your recent history?
+A: No.
+
+L: fever_symptoms
+Q: Have you had a fever or chills in your recent history?
+A: Not.
+
+L: greetings
+Q: Hello!
+Q: Hi!
+Q: Good morning!
+Q: Good afternoot!
+Q: Good evening!
+Q: Hey!
+A: Hello!
+A: Hi!
+A: Good morning!
+A: Good afternoot!
+A: Good evening!
+A: Hey!
+
+<-- END PERSONA -->
+
+<-- START PERSONA -->
+
+D: case=Case No. 12 - V.V.
+D: sex=m
+D: age=69
+D: profession=painter
+D: annotations=smoker
+
+L: visit_reason
+Q: What is the reason for the presentation at the hospital?
+A: My left leg hurts and I have palpitations.
+
+L: symptoms_start
+Q: When did the symptoms start?
+A: My leg has been hurting for a week, I have been feeling palpitations for 2 days.
+
+L: symptoms_circumstances
+Q: What are the circumstances of the onset of symptoms?
+A: I thought my leg hurt because I was standing for a long time, in the same position, it had been slightly swollen 2 days ago, but then it deflated. But for 2 days I started to feel my heart beating very fast, out of the blue, and when I measured my pulse I found between 110 and 120 beats per minute.
+
+L: symptoms_changes
+Q: Were there any changes in symptoms from onset to presentation?
+A: My leg hurt more when it was swollen, then the pain subsided. I feel the palpitations especially if I go or do some housework.
+
+L: diseases_parents
+Q: Do you know of any illness that your mother or father suffers from?
+A: Mother - hypertension, stroke and death at age 65; Father - liver cirrhosis, death at 68 years.
+
+L: diseases_personal
+Q: What diseases do you know to have?
+A: None.
+
+L: chronic_treatment
+Q: What is the chronic treatment?
+A: I was prescribed hypertension treatment but I didn't take it.
+
+L: surgeries
+Q: Surgery?
+A: Appendectomy at age 15. Hydrostatic varicose veins 5 years ago.
+
+L: chest_pain
+Q: Has pain in the center of the chest, as a pressure, exertion or cold, ever occurred?
+A: No, never.
+
+L: fainting_symptoms
+Q: Fainting or loss of consciousness in history?
+A: No.
+
+L: palpitations_symptoms
+Q: Palpitations in history?
+A: Until 2 days ago I never felt palpitations.
+
+L: cough_symptoms
+Q: Have you had a coughing sputum in your recent history?
+A: No.
+
+L: fever_symptoms
+Q: Have you had a fever or chills in your recent history?
+A: No.
+
+L: greetings
+Q: Hello!
+Q: Hi!
+Q: Good morning!
+Q: Good afternoot!
+Q: Good evening!
+Q: Hey!
+A: Hello!
+A: Hi!
+A: Good morning!
+A: Good afternoot!
+A: Good evening!
+A: Hey!
+
+<-- END PERSONA -->
+
+<-- START PERSONA -->
+
+D: case=Case No. 13 - L.A.
+D: sex=m
+D: age=72
+D: profession=retired
+D: annotations=former smoker
+
+L: visit_reason
+Q: What is the reason for the presentation at the hospital?
+A: I have a back pain and I'm coughing and the pain gets worse when I cough.
+
+L: symptoms_start
+Q: When did the symptoms start?
+A: 3 days ago.
+
+L: symptoms_circumstances
+Q: What are the circumstances of the onset of symptoms?
+A: Suddenly this stab appeared, but I noticed that it hurts more when I take a deep breath. The cough is dry, I cough both day and night.
+
+L: symptoms_changes
+Q: Were there any changes in symptoms from onset to presentation?
+A: I took pain medication and the pain eased a little.
+
+L: diseases_parents
+Q: Do you know of any illness that your mother or father suffers from?
+A: I don't know, they died of old age.
+
+L: diseases_personal
+Q: What diseases do you know?
+A: Gastritis, Dyslipidemia.
+
+L: chronic_treatment
+Q: What is the chronic treatment?
+Q: Do you take any medicine?
+Q: Do you take any pills?
+A: Perindopril 10 mg / day, Indapamide 1.5 mg / day, Rosuvastatin 10 mg / day, Aspenter 75 mg / day, Omez 20 mg / day
+
+L: surgeries
+Q: Surgery?
+A: Cholecystectomy 15 years ago. Bilateral inguinal hernia operated on 10 and 5 years ago, respectively
+
+L: chest_pain
+Q: Has pain in the center of the chest, as a pressure, exertion or cold, ever occurred?
+A: No.
+
+L: fainting_symptoms
+Q: Fainting or loss of consciousness in history?
+A: No.
+
+L: palpitations_symptoms
+Q: Palpitations in history?
+A: No.
+
+L: cough_symptoms
+Q: Have you had a coughing sputum in your recent history?
+A: No, just a 3-day dry cough.
+
+L: fever_symptoms
+Q: Have you had a fever or chills in your recent history?
+A: 3-day fever (maximum 38.2 degrees)
+
+L: greetings
+Q: Hello!
+Q: Hi!
+Q: Good morning!
+Q: Good afternoot!
+Q: Good evening!
+Q: Hey!
+A: Hello!
+A: Hi!
+A: Good morning!
+A: Good afternoot!
+A: Good evening!
+A: Hey!
+
+<-- END PERSONA -->
+
+<-- START PERSONA -->
+
+D: case=Case No. 14 - M.M.
+D: sex=m
+D: sex=56
+D: profession=lawyer
+D: annotations=smoker
+
+L: visit_reason
+Q: What is the reason for the presentation at the hospital?
+A: I noticed that my pulse was increasing.
+
+L: symptoms_start
+Q: When did the symptoms start?
+A: 3 days ago.
+
+L: symptoms_circumstances
+Q: What are the circumstances of the onset of symptoms?
+A: I regularly monitor my blood pressure and pulse, and I usually had a pulse of 70-80 beats per minute. 4 days ago I returned from Canada and 3 days ago I noticed that my pulse reaches 100 beats per minute. 
+
+L: symptoms_changes
+Q: Were there any changes in symptoms from onset to presentation?
+A: It seems to me that since I came back from vacation I get tired more easily, but I think it's because of the time zone difference.
+
+L: diseases_parents
+Q: Do you know of any illness that your mother or father suffers from?
+A: Mother - stroke and death at age 45.
+
+L: diseases_personal
+Q: What diseases do you know?
+A: Arterial hypertension. 
+
+L: chronic_treatment
+Q: What is the chronic treatment?
+A: Irbesartan 300 mg / day
+
+L: surgeries
+Q: Surgery?
+A: No.
+
+L: chest_pain
+Q: Has pain in the center of the chest, as a pressure, exertion or cold, ever occurred?
+A: No.
+
+L: fainting_symptoms
+Q: Fainting or loss of consciousness in history?
+A: No.
+
+L: palpitations_symptoms
+Q: Palpitations in history?
+A: I don't feel any palpitations, I just noticed that my pulse had increased.
+
+L: cough_symptoms
+Q: Have you had a coughing sputum in your recent history?
+A: No.
+
+L: fever_symptoms
+Q: Have you had a fever or chills in your recent history?
+A: No.
+
+L: greetings
+Q: Hello!
+Q: Hi!
+Q: Good morning!
+Q: Good afternoot!
+Q: Good evening!
+Q: Hey!
+A: Hello!
+A: Hi!
+A: Good morning!
+A: Good afternoot!
+A: Good evening!
+A: Hey!
+
+<-- END PERSONA -->
+
+<-- START PERSONA -->
+
+D: case=Case No. 15 - R.C.
+D: sex=male
+D: age=65
+D: profession=retired
+D: annotations=smoker
+
+L: visit_reason
+Q: What is the reason for the presentation at the hospital?
+A: I feel a pain like a stab under my left shoulder blade.
+
+L: symptoms_start
+Q: When did the symptoms start?
+A: A week ago.
+
+L: symptoms_circumstances
+Q: What are the circumstances of the onset of symptoms?
+A: I had biliary colic 10 days ago and for 3 days I stayed in bed longer, treating myself with antispasmodics. After I got out of bed I noticed this stab-like pain, I had never felt it before.
+
+L: symptoms_changes
+Q: Were there any changes in symptoms from onset to presentation?
+A: A dry cough has also appeared for 2 days. The pain now holds me longer when I take a deep breath.
+
+L: diseases_parents
+Q: Do you know of any illness that your mother or father suffers from?
+A: Mother - gastric cancer.
+
+L: diseases_personal
+Q: What diseases do you know?
+A: Left leg thrombophlebitis 2 years ago. Gallstones - I was repeatedly recommended for surgery, but I refused.
+
+L: chronic_treatment
+Q: What is the chronic treatment?
+A: Aspirin; I was treated with acenocumarol (blood thinner) for 3 months after thrombophlebitis, but the INR never came out well and I stopped it.
+
+L: surgeries
+Q: Surgery?
+A: No.
+
+L: chest_pain
+Q: Has pain in the center of the chest, as a pressure, exertion or cold, ever occurred?
+A: No.
+
+L: fainting_symptoms
+Q: Fainting or loss of consciousness in history?
+A: No.
+
+L: palpitations_symptoms
+Q: Palpitations in history?
+A: No.
+
+L: cough_symptoms
+Q: Have you had a coughing sputum in your recent history?
+A: No, just a 2-day dry cough.
+
+L: fever_symptoms
+Q: Have you had a fever or chills in your recent history?
+A: Yesterday my temperature was 37.6 degrees C. 
+
+L: greetings
+Q: Hello!
+Q: Hi!
+Q: Good morning!
+Q: Good afternoot!
+Q: Good evening!
+Q: Hey!
+A: Hello!
+A: Hi!
+A: Good morning!
+A: Good afternoot!
+A: Good evening!
+A: Hey!
+
+<-- END PERSONA -->

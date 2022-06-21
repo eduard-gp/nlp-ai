@@ -1,0 +1,14 @@
+visit_reason
+symptoms_start
+symptoms_circumstances
+symptoms_changes
+diseases_parents
+diseases_personal
+chronic_treatment
+surgeries
+chest_pain
+fainting_symptoms
+palpitations_symptoms
+cough_symptoms
+fever_symptoms
+greetings
