@@ -1,0 +1,1083 @@
+<-- START PERSONA -->
+
+D: case=Caz nr. 1 - M.I.
+D: sex=f
+D: age=44
+D: profession=pensionara
+D: annotations=fosta fumatoare
+
+L: visit_reason
+Q: Care este motivul prezentarii la spital?
+A: Respir greu si mi-am pierdut cunostinta.
+
+L: symptoms_start
+Q: Cand a debutat simptomatologia? 
+A: De 5 zile respir mai greu si cu doua ore in urma mi-am pierdut cunostinta.
+
+L: symptoms_circumstances
+Q: Care sunt circumstantele aparitiei simptomatologiei?
+A: Respir greu in timp ce fac efort. Mi-am pierdut cunostinta in timp ce stateam la masa; n-am simtit nimic, m-am trezit cu capul pe masa si cu sotul strigand la mine.
+
+L: symptoms_changes
+Q: Au exisat modificari in simptomatologie de la debut pana la prezentare?
+A: Initial oboseam la efort mai mare, dar in ultimele 2 zile oboseam si cand ma dadeam jos din pat.
+
+L: diseases_parents
+Q: Stiti vreo boala de care sufera mama sau tatal dumneavoastra?
+A: Nu.
+
+L: diseases_personal
+Q: Cu ce boli va cunoasteti?
+Q: De ce boli suferiti?
+A: Cu ce boli va cunoasteti?
+
+L: chronic_treatment
+Q: Care este tratamentul cronic?
+A: Atorvastatina 40 mg QD, Pentoxifilina 400 mg TID.
+
+L: surgeries
+Q: Interventii chirurgicale?
+A: Hemicolectomie dreapta in urma cu 3 ani.
+
+L: chest_pain
+Q: Durere in centrul pieptului, ca o apasare, la efort sau la frig a aparut vreodata?
+A: Nu.
+
+L: fainting_symptoms
+Q: Stari de lesin sau pierderi de cunostinta in istoric?
+A: Da, un singur episod, cel de azi.
+
+L: palpitations_symptoms
+Q: Palpitatii in istoric? 
+A: De cand obosesc parca simt ca bate inima mai tare.
+
+L: cough_symptoms
+Q: Ati prezentat tuse cu sputa in istoricul recent?
+A: Nu.
+
+L: fever_symptoms
+Q: Ati prezentat febra sau frison in istoricul recent?
+A: Nu.
+
+L: greetings
+Q: Buna!
+Q: Buna ziua!
+Q: Buna dimineata!
+Q: Buna seara!
+A: Buna!
+A: Buna ziua!
+A: Buna dimineata!
+A: Buna seara!
+
+<-- END PERSONA -->
+
+<-- START PERSONA -->
+
+D: case=Caz nr. 2 - S.I.
+D: sex=barbat
+D: age=60
+D: profession=profesor
+D: annotations=fumator
+
+L: visit_reason
+Q: Care este motivul prezentarii la spital?
+A: Ma sufoc, nu imi mai ajunge aerul
+
+L: symptoms_start
+Q: Cand a debutat simptomatologia? 
+A: In urma cu 2 zile.
+
+L: symptoms_circumstances
+Q: Care sunt circumstantele aparitiei simptomatologiei?
+A: Efort nu prea faceam nici inainte, ca oboseam, dar am zis ca e de la faptul ca sunt gras. Dar de 2 zile simt ca ma sufoc si fara sa fac nimic, nu am putut nici macar sa sun singur la ambulanta - raman fara suflu si daca vorbesc.
+
+L: symptoms_changes
+Q: Au exisat modificari in simptomatologie de la debut pana la prezentare? 
+A: Mi se pare ca ma sufoc din ce in ce mai rau de acum 2 zile.
+
+L: diseases_parents
+Q: Stiti vreo boala de care sufera mama sau tatal dumneavoastra?
+A: Tatal – cancer pulmonar.
+
+L: diseases_personal
+Q: Cu ce boli va cunoasteti?
+A: Limfom Hodgkin in urma cu 2 ani, chimiotratat, in remisie la ultima evaluare (acum 6 luni) Obezitate (IMC=42 kg/m2).
+
+L: chronic_treatment
+Q: Care este tratamentul cronic?
+A: Fara tratament.
+
+L: surgeries
+Q: Interventii chirurgicale?
+A: Biopsie ganglionara laterocervicala in urma cu 2 ani. Colecistectomie in urma cu 5 ani.
+
+L: chest_pain
+Q: Durere in centrul pieptului, ca o apasare, la efort sau la frig a aparut vreodata?
+A: Nu.
+
+L: fainting_symptoms
+Q: Stari de lesin sau pierderi de cunostinta in istoric?
+A: Parca in astea 2 zile simteam ca ma ia cu lesin daca vorbesc prea mult sau fac vreun efort cat de mic, dar nu mi-am pierdut deloc cunostinta.
+
+L: palpitations_symptoms
+Q: Palpitatii in istoric?
+A: Nu.
+
+L: cough_symptoms
+Q: Ati prezentat tuse cu sputa in istoricul recent?
+A: Nu.
+
+L: fever_symptoms
+Q: Ati prezentat febra sau frison in istoricul recent?
+A: Nu.
+
+L: greetings
+Q: Buna!
+Q: Buna ziua!
+Q: Buna dimineata!
+Q: Buna seara!
+A: Buna!
+A: Buna ziua!
+A: Buna dimineata!
+A: Buna seara!
+
+<-- END PERSONA -->
+
+<-- START PERSONA -->
+
+D: case=Caz nr. 3 - O.V.
+D: sex=barbat
+D: age=85
+D: profession=pensionar
+D: annotations=nefumator
+D: annotations=Pacient institutionalizat intr-un azil de batrani, gasit de echipajul de ambulanta obnubilat, cu saturatie O2 50% si intubat de necesitate. Din anamneza personalului de ingrijire de la azil:
+
+L: visit_reason
+Q: Care este motivul prezentarii la spital?
+A: Am observat ca respira greu si a avut tensiunea mica, 70/40 mm Hg.
+
+L: symptoms_start
+Q: Cand a debutat simptomatologia? 
+A: In urma cu 3 zile.
+
+L: symptoms_circumstances
+Q: Care sunt circumstantele aparitiei simptomatologiei?
+A: El sta la pat pentru ca nu se mai poate deplasa. De 3 zile am observat ca respira mai greu. El nu s-a plans de nimic, dar se exprima greoi fiindca a avut un AVC acum 2 ani.
+
+L: symptoms_changes
+Q: Au exisat modificari in simptomatologie de la debut pana la prezentare? 
+A: Initial avea tensiune buna, dar de azi dimineata i-am tot luat tensiunea si am gasit-o mereu mica, plus ca nu mai raspundea cand il strigam, deschidea greu ochii, asa ca am chemat ambulanta.
+
+L: diseases_parents
+Q: Stiti vreo boala de care sufera mama sau tatal dumneavoastra?
+A: Necunoscute.
+
+L: diseases_personal
+Q: Cu ce boli va cunoasteti?
+A: AVC ischemic in urma cu 2 ani. HTAE
+
+L: chronic_treatment
+Q: Care este tratamentul cronic?
+A: Aspenter 75 mg/zi, Amlodipina 10 mg/zi.
+
+L: surgeries
+Q: Interventii chirurgicale?
+A: Hernie de disc in urma cu 10 ani.
+
+L: chest_pain
+Q: Durere in centrul pieptului, ca o apasare, la efort sau la frig a aparut vreodata?
+A: Nu.
+
+L: fainting_symptoms
+Q: Stari de lesin sau pierderi de cunostinta in istoric?
+A: Nu.
+
+L: palpitations_symptoms
+Q: Palpitatii in istoric?
+A: Nu.
+
+L: cough_symptoms
+Q: Ati prezentat tuse cu sputa in istoricul recent?
+A: Nu.
+
+L: fever_symptoms
+Q: Ati prezentat febra sau frison in istoricul recent?
+A: Nu.
+
+L: greetings
+Q: Buna!
+Q: Buna ziua!
+Q: Buna dimineata!
+Q: Buna seara!
+A: Buna!
+A: Buna ziua!
+A: Buna dimineata!
+A: Buna seara!
+
+<-- END PERSONA -->
+
+<-- START PERSONA -->
+
+D: case=Caz nr. 4 - N.A.
+D: sex=barbat
+D: age=65
+D: profession=parlamentar
+D: annotations=fumator
+
+L: visit_reason
+Q: Care este motivul prezentarii la spital?
+Q: Ce s-a intamplat cu pacientul?
+Q: Ce a patit pacientul?
+A: Pacientul a suferit un stop cardiorespirator. Este adus la spital de echipajul de ambulanta, fiind intubat si ventilat mecanic.
+
+L: symptoms_start
+Q: Cand a debutat simptomatologia?
+A: Nu a avut acuze inainte de instalarea stopului (din anamneza familiei).
+
+L: symptoms_circumstances
+Q: Care sunt circumstantele aparitiei simptomatologiei?
+A: Stopul cardiorespirator a survenit in aeroportul Otopeni, la scurt timp dupa aterizarea dintr-o vacanta petrecuta in Noua Zeelanda.
+
+L: symptoms_changes
+Q: Au exisat modificari in simptomatologie de la debut pana la prezentare? 
+A: Nu.
+
+L: diseases_parents
+Q: Stiti vreo boala de care sufera mama sau tatal lui?
+A: Ambii parinti – HTA, tatal – deces prin IMA la 60 ani.
+
+L: diseases_personal
+Q: Cu ce boli va cunoasteti?
+A: HTA. Obezitate (IMC=41 kg/m2).
+
+L: chronic_treatment
+Q: Care este tratamentul cronic?
+A: Fara tratament.
+
+L: surgeries
+Q: Interventii chirurgicale?
+A: Colecistectomie in urma cu 3 ani. Varice hidrostatice in urma cu 2 ani.
+
+L: chest_pain
+Q: Durere in centrul pieptului, ca o apasare, la efort sau la frig a aparut vreodata?
+A: Nu.
+
+L: fainting_symptoms
+Q: Stari de lesin sau pierderi de cunostinta in istoric?
+A: Nu.
+
+L: palpitations_symptoms
+Q: Palpitatii in istoric?
+A: Nu.
+
+L: cough_symptoms
+Q: Ati prezentat tuse cu sputa in istoricul recent?
+A: Nu.
+
+L: fever_symptoms
+Q: Ati prezentat febra sau frison in istoricul recent?
+A: Nu.
+
+L: greetings
+Q: Buna!
+Q: Buna ziua!
+Q: Buna dimineata!
+Q: Buna seara!
+A: Buna!
+A: Buna ziua!
+A: Buna dimineata!
+A: Buna seara!
+
+<-- END PERSONA -->
+
+<-- START PERSONA -->
+
+D: case=Caz nr. 5 - G.N.
+D: sex=barbat
+D: age=23
+D: annotations=nefumator
+D: annotations=Pacient cu tetrapareza spastica, retard mental, imobilizat la pat. Anamneza imposibila. Din anamneza familiei.
+
+L: visit_reason
+Q: Care este motivul prezentarii la spital?
+A: Dificultate in respiratie.
+
+L: symptoms_start
+Q: Cand a debutat simptomatologia? 
+A: In urma cu 8 ore.
+
+L: symptoms_circumstances
+Q: Care sunt circumstantele aparitiei simptomatologiei?
+A: Mama pacientului a fost trezita din somn de respiratia rapida si greoaie a fiului.
+
+L: symptoms_changes
+Q: Au exisat modificari in simptomatologie de la debut pana la prezentare? 
+A: Nu.
+
+L: diseases_parents
+Q: Parintii pacientului sufera de vreo boala?
+A: Nu.
+
+L: diseases_personal
+Q: Cu ce boli se cunoaste?
+A: Retard mental sever.
+
+L: chronic_treatment
+Q: Care este tratamentul cronic?
+A: Vitamine.
+
+L: surgeries
+Q: Interventii chirurgicale?
+A: Fara.
+
+L: chest_pain
+Q: Durere in centrul pieptului, ca o apasare, la efort sau la frig a aparut vreodata?
+A: Pacientul nu poate descrie simptome.
+
+L: fainting_symptoms
+Q: Stari de lesin sau pierderi de cunostinta in istoric?
+A: Nu.
+
+L: palpitations_symptoms
+Q: Palpitatii in istoric?
+A: Pacientul nu poate descrie simptome.
+
+L: cough_symptoms
+Q: Ati prezentat tuse cu sputa in istoricul recent?
+A: Nu.
+
+L: fever_symptoms
+Q: Ati prezentat febra sau frison in istoricul recent?
+A: Nu.
+
+L: greetings
+Q: Buna!
+Q: Buna ziua!
+Q: Buna dimineata!
+Q: Buna seara!
+A: Buna!
+A: Buna ziua!
+A: Buna dimineata!
+A: Buna seara!
+
+<-- END PERSONA -->
+
+<-- START PERSONA -->
+
+D: case=Caz nr. 6 - N.N.
+D: sex=f
+D: age=27
+D: annotations=nefumator
+D: annotations=Pacienta lauza, cu sarcina dusa la termen si nastere prin cezariana in urma cu 2 saptamani.
+
+L: visit_reason
+Q: Care este motivul prezentarii la spital?
+A: Dificultate in respiratie.
+
+L: symptoms_start
+Q: Cand a debutat simptomatologia? 
+A: In urma cu 6 ore.
+
+L: symptoms_circumstances
+Q: Care sunt circumstantele aparitiei simptomatologiei?
+A: Dificultatea in respiratie a aparut brusc, in timp ce alaptam.
+
+L: symptoms_changes
+Q: Au exisat modificari in simptomatologie de la debut pana la prezentare? 
+A: Nu.
+
+L: diseases_parents
+Q: Stiti vreo boala de care sufera mama sau tatal dumneavoastra? 
+A: Nu.
+
+L: diseases_personal
+Q: Cu ce boli va cunoasteti?
+A: HTA de sarcina.
+
+L: chronic_treatment
+Q: Care este tratamentul cronic?
+A: Dopegyt 500 mg/zi.
+
+L: surgeries
+Q: Interventii chirurgicale?
+A: Cezariana – in urma cu 3 saptamani.
+
+L: chest_pain
+Q: Durere in centrul pieptului, ca o apasare, la efort sau la frig a aparut vreodata?
+A: Nu.
+
+L: fainting_symptoms
+Q: Stari de lesin sau pierderi de cunostinta in istoric?
+A: Nu.
+
+L: palpitations_symptoms
+Q: Palpitatii in istoric?
+A: Nu.
+
+L: cough_symptoms
+Q: Ati prezentat tuse cu sputa in istoricul recent?
+A: Nu.
+
+L: fever_symptoms
+Q: Ati prezentat febra sau frison in istoricul recent?
+A: Nu.
+
+L: greetings
+Q: Buna!
+Q: Buna ziua!
+Q: Buna dimineata!
+Q: Buna seara!
+A: Buna!
+A: Buna ziua!
+A: Buna dimineata!
+A: Buna seara!
+
+<-- END PERSONA -->
+
+<-- START PERSONA -->
+
+D: case=Caz nr. 7 - N.N.
+D: sex=b
+D: age=46
+D: profession=economist
+D: annotations=fumator
+
+L: visit_reason
+Q: Care este motivul prezentarii la spital?
+A: Mi s-a umflat piciorul stang.
+
+L: symptoms_start
+Q: Cand a debutat simptomatologia? 
+A: In urma cu 3 zile.
+
+L: symptoms_circumstances
+Q: Care sunt circumstantele aparitiei simptomatologiei?
+A: M-am trezit acum 3 dimineti cu piciorul stang umflat.
+
+L: symptoms_changes
+Q: Au exisat modificari in simptomatologie de la debut pana la prezentare? 
+A: Initial piciorul a fost umflat pana la genunchi, dar pana seara s-a umflat si coapsa.
+
+L: diseases_parents
+Q: Stiti vreo boala de care sufera mama sau tatal dumneavoastra? 
+A: Mama - trombofilie.
+
+L: diseases_personal
+Q: Cu ce boli va cunoastesti?
+A: Colecistita gangrenoasa in urma cu 3 saptamani. Dislipidemie.
+
+L: chronic_treatment
+Q: Care este tratamentul cronic?
+A: Atorvastatina 20 mg/zi.
+
+L: surgeries
+Q: Interventii chirurgicale?
+A: Colecistectomie in urma cu 3 saptamani.
+
+L: chest_pain
+Q: Durere in centrul pieptului, ca o apasare, la efort sau la frig a aparut vreodata?
+A: Nu.
+
+L: fainting_symptoms
+Q: Stari de lesin sau pierderi de cunostinta in istoric?
+A: Nu.
+
+L: palpitations_symptoms
+Q: Palpitatii in istoric?
+A: Da, in ultimele 2 zile am simtit ca imi bate inima mai repede si cand mi-am monitorizat pulsul am gasit peste 100/min.
+
+L: cough_symptoms
+Q: Ati prezentat tuse cu sputa in istoricul recent?
+A: Nu.
+
+L: fever_symptoms
+Q: Ati prezentat febra sau frison in istoricul recent?
+A: In urma cu 3 saptamani, inainte de colecistectomie.
+
+L: greetings
+Q: Buna!
+Q: Buna ziua!
+Q: Buna dimineata!
+Q: Buna seara!
+A: Buna!
+A: Buna ziua!
+A: Buna dimineata!
+A: Buna seara!
+
+<-- END PERSONA -->
+
+<-- START PERSONA -->
+
+D: case=Caz nr. 8 - D.D.
+D: sex=f
+D: age=22
+D: profession=studenta
+D: annotations=nefumatoare
+
+L: visit_reason
+Q: Care este motivul prezentarii la spital?
+A: Am observat ca nu imi mai ajunge aerul.
+
+L: symptoms_start
+Q: Cand a debutat simptomatologia? 
+A: In urma cu 4 zile.
+
+L: symptoms_circumstances
+Q: Care sunt circumstantele aparitiei simptomatologiei?
+A: Respir greu cand fac efort.
+
+L: symptoms_changes
+Q: Au exisat modificari in simptomatologie de la debut pana la prezentare? 
+A: Nu, de 4 zile obosesc la acelasi grad de efort.
+
+L: diseases_parents
+Q: Stiti vreo boala de care sufera mama sau tatal dumneavoastra? 
+A: Mama - HTA.
+
+L: diseases_personal
+Q: Cu ce boli va cunoastesti?
+A: Fractura gamba dreapta acum 4 saptamani, in urma unui accident la schi.
+
+L: chronic_treatment
+Q: Care este tratamentul cronic?
+A: Contraceptive orale de 2 ani. Clexane 0.4 mg/zi pana in urma cu o saptamana (pe durata mentinerii gipsului).
+
+L: surgeries
+Q: Interventii chirurgicale?
+A: Interventie ortopedica pentru fractura de gamba, ulterior aparat gipsat mentinut pana acum o saptamana.
+
+L: chest_pain
+Q: Durere in centrul pieptului, ca o apasare, la efort sau la frig a aparut vreodata?
+A: Nu.
+
+L: fainting_symptoms
+Q: Stari de lesin sau pierderi de cunostinta in istoric?
+A: Nu.
+
+L: palpitations_symptoms
+Q: Palpitatii in istoric?
+A: Nu.
+
+L: cough_symptoms
+Q: Ati prezentat tuse cu sputa in istoricul recent?
+A: Nu.
+
+L: fever_symptoms
+Q: Ati prezentat febra sau frison in istoricul recent?
+A: Nu.
+
+L: greetings
+Q: Buna!
+Q: Buna ziua!
+Q: Buna dimineata!
+Q: Buna seara!
+A: Buna!
+A: Buna ziua!
+A: Buna dimineata!
+A: Buna seara!
+
+<-- END PERSONA -->
+
+<-- START PERSONA -->
+
+D: case=Caz nr. 9 - R.I.
+D: sex=b
+D: age=44
+D: profession=antreprenor
+D: annotations=fumator
+
+L: visit_reason
+Q: Care este motivul prezentarii la spital?
+A: Nu imi ajunge aerul si mi s-a umflat piciorul drept.
+
+L: symptoms_start
+Q: Cand a debutat simptomatologia? 
+A: Piciorul drept mi s-a umflat acum 3 zile.
+
+L: symptoms_circumstances
+Q: Care sunt circumstantele aparitiei simptomatologiei?
+A: Am facut un drum pana in Austria si inapoi in urma cu aproximativ o saptamana (am condus ~ 30 de ore in decurs de 3 zile), iar la 2 zile dupa ce m-am intors m-am trezit intr-o dimineata cu piciorul umflat pana la genunchi. Dupa inca o zi am inceput sa respir mai greu cand merg si cand urc scarile.
+
+L: symptoms_changes
+Q: Au exisat modificari in simptomatologie de la debut pana la prezentare? 
+A: Piciorul a ramas la fel de umflat, de obosit parca obosesc din ce in ce mai rau.
+
+L: diseases_parents
+Q: Stiti vreo boala de care sufera mama sau tatal dumneavoastra? 
+A: Nu.
+
+L: diseases_personal
+Q: Cu ce boli va cunoastesti?
+A: N-am fost bolnav pana acum.
+
+L: chronic_treatment
+Q: Care este tratamentul cronic?
+A: Nu aveam niciun tratament cronic.
+
+L: surgeries
+Q: Interventii chirurgicale?
+A: Nu am avut interventii chirurgicale.
+
+L: chest_pain
+Q: Durere in centrul pieptului, ca o apasare, la efort sau la frig a aparut vreodata?
+A: Nu.
+
+L: fainting_symptoms
+Q: Stari de lesin sau pierderi de cunostinta in istoric?
+A: Nu.
+
+L: palpitations_symptoms
+Q: Palpitatii in istoric?
+A: Nu.
+
+L: cough_symptoms
+Q: Ati prezentat tuse cu sputa in istoricul recent?
+A: Nu.
+
+L: fever_symptoms
+Q: Ati prezentat febra sau frison in istoricul recent?
+A: Nu.
+
+L: greetings
+Q: Buna!
+Q: Buna ziua!
+Q: Buna dimineata!
+Q: Buna seara!
+A: Buna!
+A: Buna ziua!
+A: Buna dimineata!
+A: Buna seara!
+
+<-- END PERSONA -->
+
+<-- START PERSONA -->
+
+D: case=Caz nr. 10 - D.Z.
+D: sex=f
+D: age=31
+D: profession=contabil
+D: annotations=nefumator
+
+L: visit_reason
+Q: Care este motivul prezentarii la spital?
+A: Nu imi ajunge aerul si simt o presiune in piept.
+
+L: symptoms_start
+Q: Cand a debutat simptomatologia? 
+A: In ultima saptamana.
+
+L: symptoms_circumstances
+Q: Care sunt circumstantele aparitiei simptomatologiei?
+A: Am observat cand mergeam la sala ca nu mai puteam face acelasi efort, respir mai greu, obosesc mult mai repede. Simt ca ma doare in centrul pieptului cand incerc sa trag aer adanc, nu intra aerul asa cum ar trebui.
+
+L: symptoms_changes
+Q: Au exisat modificari in simptomatologie de la debut pana la prezentare?
+A: Da, simt ca respir din ce in ce mai greu de o saptamana.
+
+L: diseases_parents
+Q: Stiti vreo boala de care sufera mama sau tatal dumneavoastra? 
+A: Mama – deces prin IMA la 47 ani.
+
+L: diseases_personal
+Q: Cu ce boli va cunoastesti?
+A: 3 avorturi spontane la 23, 27 si 28.
+
+L: chronic_treatment
+Q: Care este tratamentul cronic?
+A: Nu aveam niciun tratament cronic.
+
+L: surgeries
+Q: Interventii chirurgicale?
+A: Nu am avut interventii chirurgicale.
+
+L: chest_pain
+Q: Durere in centrul pieptului, ca o apasare, la efort sau la frig a aparut vreodata?
+A: Nu.
+
+L: fainting_symptoms
+Q: Stari de lesin sau pierderi de cunostinta in istoric?
+A: Nu.
+
+L: palpitations_symptoms
+Q: Palpitatii in istoric?
+A: Nu.
+
+L: cough_symptoms
+Q: Ati prezentat tuse cu sputa in istoricul recent?
+A: Nu.
+
+L: fever_symptoms
+Q: Ati prezentat febra sau frison in istoricul recent?
+A: Nu.
+
+L: greetings
+Q: Buna!
+Q: Buna ziua!
+Q: Buna dimineata!
+Q: Buna seara!
+A: Buna!
+A: Buna ziua!
+A: Buna dimineata!
+A: Buna seara!
+
+<-- END PERSONA -->
+
+<-- START PERSONA -->
+
+D: case=Caz nr. 11 - I.C.
+D: sex=b
+D: age=55
+D: profession=vanzator
+D: annotations=fumator
+
+L: visit_reason
+Q: Care este motivul prezentarii la spital?
+A: Pentru palpitatii si o stare de lesin.
+
+L: symptoms_start
+Q: Cand a debutat simptomatologia? 
+A: In urma cu 4 zile.
+
+L: symptoms_circumstances
+Q: Care sunt circumstantele aparitiei simptomatologiei?
+A: De 4 zile simt ca imi bate inima foarte repede si regulat, in special daca fac ceva efort, iar astazi in timp ce incercam sa car niste lazi am avut o stare de lesin.
+
+L: symptoms_changes
+Q: Au exisat modificari in simptomatologie de la debut pana la prezentare?
+A: Nu.
+
+L: diseases_parents
+Q: Stiti vreo boala de care sufera mama sau tatal dumneavoastra? 
+A: Mama – DZ, HTA; Tatal – deces prin AVC la 67 ani.
+
+L: diseases_personal
+Q: Cu ce boli va cunoastesti?
+A: Tromboflebita gamba stanga in urma cu 5 ani. Sindrom post-trombotic gamba stanga. Insuficienta venoasa cronica membrele inferioare.
+
+L: chronic_treatment
+Q: Care este tratamentul cronic?
+A: Detralex, Aspenter; am urmat tratament cu Trombostop 6 luni dupa tromboflebita, nu il mai iau de peste 4 ani.
+
+L: surgeries
+Q: Interventii chirurgicale?
+A: Nu.
+
+L: chest_pain
+Q: Durere in centrul pieptului, ca o apasare, la efort sau la frig a aparut vreodata?
+A: Nu.
+
+L: fainting_symptoms
+Q: Stari de lesin sau pierderi de cunostinta in istoric?
+A: Astazi a fost singura stare de lesin pe care am avut-o.
+
+L: palpitations_symptoms
+Q: Palpitatii in istoric?
+A: Pana acum 4 zile nu am simtit palpitatii.
+
+L: cough_symptoms
+Q: Ati prezentat tuse cu sputa in istoricul recent?
+A: Nu.
+
+L: fever_symptoms
+Q: Ati prezentat febra sau frison in istoricul recent?
+A: Nu.
+
+L: greetings
+Q: Buna!
+Q: Buna ziua!
+Q: Buna dimineata!
+Q: Buna seara!
+A: Buna!
+A: Buna ziua!
+A: Buna dimineata!
+A: Buna seara!
+
+<-- END PERSONA -->
+
+<-- START PERSONA -->
+
+D: case=Caz nr. 12 - V.V.
+D: sex=b
+D: age=69
+D: profession=pictor
+D: annotations=fumator
+
+L: visit_reason
+Q: Care este motivul prezentarii la spital?
+A: Ma doare piciorul stang si am palpitatii.
+
+L: symptoms_start
+Q: Cand a debutat simptomatologia? 
+A: Piciorul ma doare de o saptamana, palpitatii simt de 2 zile.
+
+L: symptoms_circumstances
+Q: Care sunt circumstantele aparitiei simptomatologiei?
+A: Am crezut ca ma doare piciorul pentru ca stau mult in picioare, in aceeasi pozitie, parca a fost si putin umflat timp de 2 zile, dar apoi s-a dezumflat. De 2 zile insa am inceput sa simt ca imi bate inima foarte repede, din senin, si cand mi-am masurat pulsul am gasit intre 110 si 120/minut.
+
+L: symptoms_changes
+Q: Au exisat modificari in simptomatologie de la debut pana la prezentare?
+A: Piciorul m-a durut mai mult cat a fost umflat, ulterior durerea a diminuat. Palpitatiile le resimt mai ales daca merg sau fac vreo activitate casnica.
+
+L: diseases_parents
+Q: Stiti vreo boala de care sufera mama sau tatal dumneavoastra? 
+A: Mama – HTA, deces prin AVC la 65 ani; Tatal – ciroza hepatica, deces la 68 ani.
+
+L: diseases_personal
+Q: Cu ce boli va cunoastesti?
+A: HTA, dislipidemie.
+
+L: chronic_treatment
+Q: Care este tratamentul cronic?
+A: Mi s-au prescris medicamente pentru hipertensiune dar nu le-am luat.
+
+L: surgeries
+Q: Interventii chirurgicale?
+A: Apendicectomie la 15 ani. Varice hidrostatice in urma cu 5 ani.
+
+L: chest_pain
+Q: Durere in centrul pieptului, ca o apasare, la efort sau la frig a aparut vreodata?
+A: Nu.
+
+L: fainting_symptoms
+Q: Stari de lesin sau pierderi de cunostinta in istoric?
+A: Nu.
+
+L: palpitations_symptoms
+Q: Palpitatii in istoric?
+A: Pana acum 2 zile nu am resimtit niciodata palpitatii.
+
+L: cough_symptoms
+Q: Ati prezentat tuse cu sputa in istoricul recent?
+A: Nu.
+
+L: fever_symptoms
+Q: Ati prezentat febra sau frison in istoricul recent?
+A: Nu.
+
+L: greetings
+Q: Buna!
+Q: Buna ziua!
+Q: Buna dimineata!
+Q: Buna seara!
+A: Buna!
+A: Buna ziua!
+A: Buna dimineata!
+A: Buna seara!
+
+<-- END PERSONA -->
+
+<-- START PERSONA -->
+
+D: case=Caz nr. 13 - L.A.
+D: sex=b
+D: age=72
+D: profession=pensionar
+D: annotations=fost fumator
+
+L: visit_reason
+Q: Care este motivul prezentarii la spital?
+A: Am o durere in spate si tusesc.
+
+L: symptoms_start
+Q: Cand a debutat simptomatologia? 
+A: In urma cu 3 zile.
+
+L: symptoms_circumstances
+Q: Care sunt circumstantele aparitiei simptomatologiei?
+A: Din senin a aparut junghiul asta, dar am observat ca ma tine mai ales cand respir adanc. Tusea e seaca, nu expectorez nimic, tusesc si ziua si noaptea.
+
+L: symptoms_changes
+Q: Au exisat modificari in simptomatologie de la debut pana la prezentare?
+A: Am luat Paracetamol si s-a ameliorat putin durerea.
+
+L: diseases_parents
+Q: Stiti vreo boala de care sufera mama sau tatal dumneavoastra? 
+A: Nu stiu, au murit de batranete.
+
+L: diseases_personal
+Q: Cu ce boli va cunoastesti?
+A: HTA, Gastrita, Dislipidemie.
+
+L: chronic_treatment
+Q: Care este tratamentul cronic?
+A: Perindopril 10 mg/zi, Indapamid 1.5 mg/zi, Rosuvastatina 10 mg/zi, Aspenter 75 mg/zi, Omez 20 mg/zi.
+
+L: surgeries
+Q: Interventii chirurgicale?
+A: Colecistectomie in urma cu 15 ani. Hernie inghinala bilaterala operata in urma cu 10 si respectiv 5 ani.
+
+L: chest_pain
+Q: Durere in centrul pieptului, ca o apasare, la efort sau la frig a aparut vreodata?
+A: Nu.
+
+L: fainting_symptoms
+Q: Stari de lesin sau pierderi de cunostinta in istoric?
+A: Nu.
+
+L: palpitations_symptoms
+Q: Palpitatii in istoric?
+A: Nu.
+
+L: cough_symptoms
+Q: Ati prezentat tuse cu sputa in istoricul recent?
+A: Nu, doar tuse seaca de 3 zile.
+
+L: fever_symptoms
+Q: Ati prezentat febra sau frison in istoricul recent?
+A: Febra de 3 zile (maxim 38.2 grade).
+
+L: greetings
+Q: Buna!
+Q: Buna ziua!
+Q: Buna dimineata!
+Q: Buna seara!
+A: Buna!
+A: Buna ziua!
+A: Buna dimineata!
+A: Buna seara!
+
+<-- END PERSONA -->
+
+<-- START PERSONA -->
+
+D: case=Caz nr. 14 - M.M.
+D: sex=b
+D: age=56
+D: profession=avocat
+D: annotations=fumator
+
+L: visit_reason
+Q: Care este motivul prezentarii la spital?
+A: Am observat ca am pulsul marit.
+
+L: symptoms_start
+Q: Cand a debutat simptomatologia? 
+A: In urma cu 3 zile.
+
+L: symptoms_circumstances
+Q: Care sunt circumstantele aparitiei simptomatologiei?
+A: Imi monitorizez regulat tensiunea si pulsul, iar de obicei aveam pulsul 70-80/min. Acum 4 zile m-am intors din Canada si de 3 zile am remarcat ca pulsul imi ajunge la 100/min.
+
+L: symptoms_changes
+Q: Au exisat modificari in simptomatologie de la debut pana la prezentare?
+A: Mi se pare ca de cand m-am intors din vacanta obosesc mai usor, dar cred ca e de la diferenta de fus orar.
+
+L: diseases_parents
+Q: Stiti vreo boala de care sufera mama sau tatal dumneavoastra? 
+A: Mama – deces prin AVC la 45 ani.
+
+L: diseases_personal
+Q: Cu ce boli va cunoastesti?
+A: HTAE gradul II.
+
+L: chronic_treatment
+Q: Care este tratamentul cronic?
+A: Perindopril 10 mg/zi, Indapamid 1.5 mg/zi, Rosuvastatina 10 mg/zi, Aspenter 75 mg/zi, Omez 20 mg/zi.
+
+L: surgeries
+Q: Interventii chirurgicale?
+A: Colecistectomie in urma cu 15 ani. Hernie inghinala bilaterala operata in urma cu 10 si respectiv 5 ani.
+
+L: chest_pain
+Q: Durere in centrul pieptului, ca o apasare, la efort sau la frig a aparut vreodata?
+A: Nu.
+
+L: fainting_symptoms
+Q: Stari de lesin sau pierderi de cunostinta in istoric?
+A: Nu.
+
+L: palpitations_symptoms
+Q: Palpitatii in istoric?
+A: Nu.
+
+L: cough_symptoms
+Q: Ati prezentat tuse cu sputa in istoricul recent?
+A: Nu.
+
+L: fever_symptoms
+Q: Ati prezentat febra sau frison in istoricul recent?
+A: Nu.
+
+L: greetings
+Q: Buna!
+Q: Buna ziua!
+Q: Buna dimineata!
+Q: Buna seara!
+A: Buna!
+A: Buna ziua!
+A: Buna dimineata!
+A: Buna seara!
+
+<-- END PERSONA -->
+
+<-- START PERSONA -->
+
+D: case=Caz nr. 15 - R.C.
+D: sex=b
+D: age=65
+D: profession=pensionar
+D: annotations=fumator
+
+L: visit_reason
+Q: Care este motivul prezentarii la spital?
+A: Am un junghi sub omoplatul stang.
+
+L: symptoms_start
+Q: Cand a debutat simptomatologia? 
+A: In urma cu o saptamana.
+
+L: symptoms_circumstances
+Q: Care sunt circumstantele aparitiei simptomatologiei?
+A: Am avut o colica biliara acum 10 zile si timp de 3 zile am stat mai mult in pat, tratandu-ma cu antispastice. Dupa ce m-am dat jos din pat am observat junghiul asta, nu il mai simtisem niciodata.
+
+L: symptoms_changes
+Q: Au exisat modificari in simptomatologie de la debut pana la prezentare?
+A: De 2 zile a aparut si o tuse seaca. Junghiul ma tine acum mai mult cand respir adanc.
+
+L: diseases_parents
+Q: Stiti vreo boala de care sufera mama sau tatal dumneavoastra? 
+A: Mama – cancer gastric.
+
+L: diseases_personal
+Q: Cu ce boli va cunoastesti?
+A: Tromboflebita gamba stanga in urma cu 2 ani. Litiaza veziculara – mi s-a recomandat in repetate randuri interventia chirurgicala, dar am refuzat-o.
+
+L: chronic_treatment
+Q: Care este tratamentul cronic?
+A: Aspenter; am urmat tratament cu Sintrom 3 luni dupa tromboflebita, dar INR-ul nu iesea niciodata bun si l-am intrerupt.
+
+L: surgeries
+Q: Interventii chirurgicale?
+A: Nu.
+
+L: chest_pain
+Q: Durere in centrul pieptului, ca o apasare, la efort sau la frig a aparut vreodata?
+A: Nu.
+
+L: fainting_symptoms
+Q: Stari de lesin sau pierderi de cunostinta in istoric?
+A: Nu.
+
+L: palpitations_symptoms
+Q: Palpitatii in istoric?
+A: Nu.
+
+L: cough_symptoms
+Q: Ati prezentat tuse cu sputa in istoricul recent?
+A: Nu, doar tuse seaca de 2 zile.
+
+L: fever_symptoms
+Q: Ati prezentat febra sau frison in istoricul recent?
+A: Ieri am facut febra 37.6 grade.
+
+L: greetings
+Q: Buna!
+Q: Buna ziua!
+Q: Buna dimineata!
+Q: Buna seara!
+A: Buna!
+A: Buna ziua!
+A: Buna dimineata!
+A: Buna seara!
+
+<-- END PERSONA -->

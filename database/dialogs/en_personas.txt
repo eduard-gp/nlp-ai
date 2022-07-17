@@ -317,7 +317,7 @@ Q: What is the reason for the presentation at the hospital?
 A: Difficulty breathing.
 
 L: symptoms_start
-B: When did the symptoms start?
+Q: When did the symptoms start?
 A: 8 hours ago.
 
 L: symptoms_circumstances

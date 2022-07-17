@@ -54,7 +54,7 @@ def preprocess_tokens(tokens, vocab_size, sequence_length):
     # Tokens frequency
     vocab_counter = Counter()
     for sentence in tokens:
-        vocab_counter.update(map(str.lower, sentence))
+        vocab_counter.update(sentence)
     
     # Take the most common vocab_size - 2 tokens, because
     # of padding and unknown tokens
@@ -70,7 +70,7 @@ def preprocess_tokens(tokens, vocab_size, sequence_length):
     })
     
     v_tokens = vectorize_tokens(tokens, tokenToIdx, sequence_length)
-    return v_tokens, vocab
+    return v_tokens, tokenToIdx
 
 
 def vectorize_tokens(tokens, tokenToIdx, sequence_length):
@@ -85,14 +85,14 @@ def vectorize_tokens(tokens, tokenToIdx, sequence_length):
             else:
                 padded_sentence.append(tokenToIdx["[PAD]"])
         v_tokens.append(padded_sentence)
-    return np.array(v_tokens)
+    return np.array(v_tokens, dtype=np.int64)
 
 
 def preprocess_entity_tags(entity_tags, sequence_length):
     tags = set()
 
     for sentence_entity_tags in entity_tags:
-        tags.update(map(str.lower, sentence_entity_tags))
+        tags.update(sentence_entity_tags)
     tags = sorted(tags)
 
     entityToIdx = {
@@ -112,10 +112,10 @@ def vectorize_entity_tags(entity_tags, entityToIdx, sequence_length):
         padded_sentence_entity_tags = []
         for i in range(sequence_length):
             if i < len(sentence_entity_tags):
-                entity_tag = sentence_entity_tags[i].lower()
+                entity_tag = sentence_entity_tags[i]
                 idx = entityToIdx[entity_tag]
                 padded_sentence_entity_tags.append(idx)
             else:
                 padded_sentence_entity_tags.append(entityToIdx["[PAD]"])
         v_entity_tags.append(padded_sentence_entity_tags)
-    return np.array(v_entity_tags)
+    return np.array(v_entity_tags, dtype=np.int64)

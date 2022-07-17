@@ -1,0 +1,30 @@
+{
+    "name": "relative",
+    "roles": [
+        "relative"
+    ],
+    "lookups": [
+        "free-text",
+        "keywords"
+    ],
+    "keywords": [
+        {
+            "keyword": "father",
+            "synonyms": [
+                "father"
+            ]
+        },
+        {
+            "keyword": "mother",
+            "synonyms": [
+                "mother"
+            ]
+        },
+        {
+            "keyword": "parents",
+            "synonyms": [
+                "parents"
+            ]
+        }
+    ]
+}

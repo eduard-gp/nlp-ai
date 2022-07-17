@@ -1,0 +1,811 @@
+{
+    "utterances": [
+        {
+            "text": "Did a pain in the center of the chest ever occurred?",
+            "entities": [],
+            "traits": [],
+            "intent": "chestpain"
+        },
+        {
+            "text": "Did those symptoms changes?",
+            "entities": [],
+            "traits": [],
+            "intent": "symptomschanges"
+        },
+        {
+            "text": "Did you experienced fainting?",
+            "entities": [
+                {
+                    "entity": "person:person",
+                    "start": 4,
+                    "end": 7,
+                    "body": "you",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "faintingsymp"
+        },
+        {
+            "text": "Did you faint?",
+            "entities": [
+                {
+                    "entity": "person:person",
+                    "start": 4,
+                    "end": 7,
+                    "body": "you",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "faintingsymp"
+        },
+        {
+            "text": "Did you had a cough with sputum?",
+            "entities": [
+                {
+                    "entity": "person:person",
+                    "start": 4,
+                    "end": 7,
+                    "body": "you",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "coughsymp"
+        },
+        {
+            "text": "Did you had a coughing sputum?",
+            "entities": [
+                {
+                    "entity": "person:person",
+                    "start": 4,
+                    "end": 7,
+                    "body": "you",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "coughsymp"
+        },
+        {
+            "text": "Did you had any surgery?",
+            "entities": [
+                {
+                    "entity": "person:person",
+                    "start": 4,
+                    "end": 7,
+                    "body": "you",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "surgeries"
+        },
+        {
+            "text": "Did you have a fever?",
+            "entities": [
+                {
+                    "entity": "person:person",
+                    "start": 4,
+                    "end": 7,
+                    "body": "you",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "feversymp"
+        },
+        {
+            "text": "Did you have palpitations?",
+            "entities": [
+                {
+                    "entity": "person:person",
+                    "start": 4,
+                    "end": 7,
+                    "body": "you",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "palpitationssymp"
+        },
+        {
+            "text": "Did you lost consciousness?",
+            "entities": [
+                {
+                    "entity": "person:person",
+                    "start": 4,
+                    "end": 7,
+                    "body": "you",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "faintingsymp"
+        },
+        {
+            "text": "Did you shiver?",
+            "entities": [
+                {
+                    "entity": "person:person",
+                    "start": 4,
+                    "end": 7,
+                    "body": "you",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "feversymp"
+        },
+        {
+            "text": "Do you have any chronic treatment?",
+            "entities": [
+                {
+                    "entity": "person:person",
+                    "start": 3,
+                    "end": 6,
+                    "body": "you",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "chronictreatment"
+        },
+        {
+            "text": "Do you know of any illness that your mother or father suffers from?",
+            "entities": [
+                {
+                    "entity": "relative:relative",
+                    "start": 37,
+                    "end": 43,
+                    "body": "mother",
+                    "entities": []
+                },
+                {
+                    "entity": "relative:relative",
+                    "start": 47,
+                    "end": 53,
+                    "body": "father",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "diseasesparents"
+        },
+        {
+            "text": "Do you know of any illness your parents suffered from?",
+            "entities": [
+                {
+                    "entity": "relative:relative",
+                    "start": 32,
+                    "end": 39,
+                    "body": "parents",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "diseasesparents"
+        },
+        {
+            "text": "Do you remember to have any surgery?",
+            "entities": [
+                {
+                    "entity": "person:person",
+                    "start": 3,
+                    "end": 6,
+                    "body": "you",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "surgeries"
+        },
+        {
+            "text": "Do you suffer from any diseases?",
+            "entities": [
+                {
+                    "entity": "person:person",
+                    "start": 3,
+                    "end": 6,
+                    "body": "you",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "diseasespersonal"
+        },
+        {
+            "text": "Do you suffer from any illness?",
+            "entities": [
+                {
+                    "entity": "person:person",
+                    "start": 3,
+                    "end": 6,
+                    "body": "you",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "diseasespersonal"
+        },
+        {
+            "text": "Does the patient's parents suffer from any illness",
+            "entities": [
+                {
+                    "entity": "relative:relative",
+                    "start": 19,
+                    "end": 26,
+                    "body": "parents",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "diseasesparents"
+        },
+        {
+            "text": "Fainting or loss of consciousness in history?",
+            "entities": [],
+            "traits": [],
+            "intent": "faintingsymp"
+        },
+        {
+            "text": "Good afternoon",
+            "entities": [],
+            "traits": [],
+            "intent": "greetings"
+        },
+        {
+            "text": "Good evening",
+            "entities": [],
+            "traits": [],
+            "intent": "greetings"
+        },
+        {
+            "text": "Good morning",
+            "entities": [],
+            "traits": [],
+            "intent": "greetings"
+        },
+        {
+            "text": "Has pain in the center of the chest; as a pressure; exertion or cold; ever occurred?",
+            "entities": [],
+            "traits": [],
+            "intent": "chestpain"
+        },
+        {
+            "text": "Have you ever felt a chest pain?",
+            "entities": [
+                {
+                    "entity": "person:person",
+                    "start": 5,
+                    "end": 8,
+                    "body": "you",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "chestpain"
+        },
+        {
+            "text": "Have you felt a pressure in the chest?",
+            "entities": [
+                {
+                    "entity": "person:person",
+                    "start": 5,
+                    "end": 8,
+                    "body": "you",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "chestpain"
+        },
+        {
+            "text": "Have you felt any Palpitation?",
+            "entities": [
+                {
+                    "entity": "person:person",
+                    "start": 5,
+                    "end": 8,
+                    "body": "you",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "palpitationssymp"
+        },
+        {
+            "text": "Have you felt any Palpitations?",
+            "entities": [
+                {
+                    "entity": "person:person",
+                    "start": 5,
+                    "end": 8,
+                    "body": "you",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "palpitationssymp"
+        },
+        {
+            "text": "Have you felt any fever?",
+            "entities": [
+                {
+                    "entity": "person:person",
+                    "start": 5,
+                    "end": 8,
+                    "body": "you",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "feversymp"
+        },
+        {
+            "text": "Have you had a coughing sputum in your recent history?",
+            "entities": [
+                {
+                    "entity": "person:person",
+                    "start": 5,
+                    "end": 8,
+                    "body": "you",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "coughsymp"
+        },
+        {
+            "text": "Have you had a fever in your recent history?",
+            "entities": [
+                {
+                    "entity": "person:person",
+                    "start": 5,
+                    "end": 8,
+                    "body": "you",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "feversymp"
+        },
+        {
+            "text": "Have you had a fever or chills in your recent history?",
+            "entities": [
+                {
+                    "entity": "person:person",
+                    "start": 5,
+                    "end": 8,
+                    "body": "you",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "feversymp"
+        },
+        {
+            "text": "Have you had chills in your recent history?",
+            "entities": [
+                {
+                    "entity": "person:person",
+                    "start": 5,
+                    "end": 8,
+                    "body": "you",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "feversymp"
+        },
+        {
+            "text": "Have you noticed any changes from the beginning until now?",
+            "entities": [],
+            "traits": [],
+            "intent": "symptomschanges"
+        },
+        {
+            "text": "Have you received any surgery?",
+            "entities": [
+                {
+                    "entity": "person:person",
+                    "start": 5,
+                    "end": 8,
+                    "body": "you",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "surgeries"
+        },
+        {
+            "text": "Hello",
+            "entities": [],
+            "traits": [],
+            "intent": "greetings"
+        },
+        {
+            "text": "Hey",
+            "entities": [],
+            "traits": [],
+            "intent": "greetings"
+        },
+        {
+            "text": "Hi",
+            "entities": [],
+            "traits": [],
+            "intent": "greetings"
+        },
+        {
+            "text": "How long has it been going on?",
+            "entities": [],
+            "traits": [],
+            "intent": "symptomsstart"
+        },
+        {
+            "text": "How long have the symptoms been going on?",
+            "entities": [],
+            "traits": [],
+            "intent": "symptomsstart"
+        },
+        {
+            "text": "Palpitations in history?",
+            "entities": [],
+            "traits": [],
+            "intent": "symptomschanges"
+        },
+        {
+            "text": "Since when are you feeling like this?",
+            "entities": [],
+            "traits": [],
+            "intent": "symptomsstart"
+        },
+        {
+            "text": "Were there any changes in symptoms from onset to presentation",
+            "entities": [],
+            "traits": [],
+            "intent": "symptomschanges"
+        },
+        {
+            "text": "What activities were you doing when the symptoms appeared?",
+            "entities": [],
+            "traits": [],
+            "intent": "symptomsstart"
+        },
+        {
+            "text": "What are the circumstances of the onset of symptoms?",
+            "entities": [],
+            "traits": [],
+            "intent": "symptomscircumstances"
+        },
+        {
+            "text": "What caused symptoms to appear?",
+            "entities": [],
+            "traits": [],
+            "intent": "symptomscircumstances"
+        },
+        {
+            "text": "What caused symptoms to occur?",
+            "entities": [],
+            "traits": [],
+            "intent": "symptomscircumstances"
+        },
+        {
+            "text": "What diseases do you have?",
+            "entities": [
+                {
+                    "entity": "person:person",
+                    "start": 17,
+                    "end": 20,
+                    "body": "you",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "diseasespersonal"
+        },
+        {
+            "text": "What diseases do you know?",
+            "entities": [
+                {
+                    "entity": "person:person",
+                    "start": 17,
+                    "end": 20,
+                    "body": "you",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "diseasespersonal"
+        },
+        {
+            "text": "What is the chronic treatment?",
+            "entities": [],
+            "traits": [],
+            "intent": "chronictreatment"
+        },
+        {
+            "text": "What is the reason for the presentation at the hospital?",
+            "entities": [
+                {
+                    "entity": "place:place",
+                    "start": 47,
+                    "end": 55,
+                    "body": "hospital",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "visitreason"
+        },
+        {
+            "text": "What is the reason of your visit?",
+            "entities": [],
+            "traits": [],
+            "intent": "visitreason"
+        },
+        {
+            "text": "What is wrong?",
+            "entities": [],
+            "traits": [],
+            "intent": "visitreason"
+        },
+        {
+            "text": "What is your chronical treatment?",
+            "entities": [],
+            "traits": [],
+            "intent": "chronictreatment"
+        },
+        {
+            "text": "What made you come to hospital?",
+            "entities": [
+                {
+                    "entity": "place:place",
+                    "start": 22,
+                    "end": 30,
+                    "body": "hospital",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "visitreason"
+        },
+        {
+            "text": "What were you doing when it started?",
+            "entities": [],
+            "traits": [],
+            "intent": "symptomscircumstances"
+        },
+        {
+            "text": "What were you doing when the symptoms appeared?",
+            "entities": [],
+            "traits": [],
+            "intent": "symptomsstart"
+        },
+        {
+            "text": "What were you doing when the symptoms started?",
+            "entities": [],
+            "traits": [],
+            "intent": "symptomscircumstances"
+        },
+        {
+            "text": "What's wrong?",
+            "entities": [],
+            "traits": [],
+            "intent": "visitreason"
+        },
+        {
+            "text": "When did it start?",
+            "entities": [],
+            "traits": [],
+            "intent": "symptomsstart"
+        },
+        {
+            "text": "When did the symptoms start?",
+            "entities": [],
+            "traits": [],
+            "intent": "symptomsstart"
+        },
+        {
+            "text": "When did this start?",
+            "entities": [],
+            "traits": [],
+            "intent": "symptomsstart"
+        },
+        {
+            "text": "Why are you here?",
+            "entities": [
+                {
+                    "entity": "place:place",
+                    "start": 12,
+                    "end": 16,
+                    "body": "here",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "visitreason"
+        },
+        {
+            "text": "Why are you in the hospital?",
+            "entities": [
+                {
+                    "entity": "place:place",
+                    "start": 19,
+                    "end": 27,
+                    "body": "hospital",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "visitreason"
+        },
+        {
+            "text": "Why are you visiting us?",
+            "entities": [
+                {
+                    "entity": "person:person",
+                    "start": 8,
+                    "end": 11,
+                    "body": "you",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "visitreason"
+        },
+        {
+            "text": "did you father had any diseases?",
+            "entities": [
+                {
+                    "entity": "person:person",
+                    "start": 4,
+                    "end": 7,
+                    "body": "you",
+                    "entities": []
+                },
+                {
+                    "entity": "relative:relative",
+                    "start": 8,
+                    "end": 14,
+                    "body": "father",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "diseasesparents"
+        },
+        {
+            "text": "did you had any surgeries?",
+            "entities": [
+                {
+                    "entity": "person:person",
+                    "start": 4,
+                    "end": 7,
+                    "body": "you",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "surgeries"
+        },
+        {
+            "text": "did you had any surgery?",
+            "entities": [
+                {
+                    "entity": "person:person",
+                    "start": 4,
+                    "end": 7,
+                    "body": "you",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "surgeries"
+        },
+        {
+            "text": "do you parents had any illness?",
+            "entities": [
+                {
+                    "entity": "relative:relative",
+                    "start": 7,
+                    "end": 14,
+                    "body": "parents",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "diseasesparents"
+        },
+        {
+            "text": "do your parents had any illness?",
+            "entities": [
+                {
+                    "entity": "relative:relative",
+                    "start": 8,
+                    "end": 15,
+                    "body": "parents",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "diseasesparents"
+        },
+        {
+            "text": "hello",
+            "entities": [],
+            "traits": [],
+            "intent": "greetings"
+        },
+        {
+            "text": "hey",
+            "entities": [],
+            "traits": [],
+            "intent": "greetings"
+        },
+        {
+            "text": "rvjheh erhger everh",
+            "entities": [],
+            "traits": []
+        },
+        {
+            "text": "visit reason",
+            "entities": [],
+            "traits": [],
+            "intent": "visitreason"
+        },
+        {
+            "text": "visit reason?",
+            "entities": [],
+            "traits": [],
+            "intent": "visitreason"
+        },
+        {
+            "text": "when did the symptoms start",
+            "entities": [],
+            "traits": [],
+            "intent": "symptomsstart"
+        },
+        {
+            "text": "why are you in the hospital?",
+            "entities": [
+                {
+                    "entity": "person:person",
+                    "start": 8,
+                    "end": 11,
+                    "body": "you",
+                    "entities": []
+                },
+                {
+                    "entity": "place:place",
+                    "start": 19,
+                    "end": 27,
+                    "body": "hospital",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "visitreason"
+        },
+        {
+            "text": "why are you visiting us?",
+            "entities": [
+                {
+                    "entity": "person:person",
+                    "start": 8,
+                    "end": 11,
+                    "body": "you",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "visitreason"
+        },
+        {
+            "text": "xvxcvxc",
+            "entities": [],
+            "traits": []
+        }
+    ]
+}

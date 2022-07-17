@@ -1,0 +1,7 @@
+{
+    "version": 20200513,
+    "zip-command": "zip pav.zip pav\/app.json pav\/entities\/*.json pav\/intents\/*.json pav\/traits\/*.json pav\/utterances\/*.json",
+    "name": "pav",
+    "lang": "ro",
+    "timezone": "Europe\/Bucharest"
+}

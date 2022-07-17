@@ -1,0 +1,6 @@
+{
+    "name": "chronictreatment",
+    "entities": [
+        "place:place"
+    ]
+}

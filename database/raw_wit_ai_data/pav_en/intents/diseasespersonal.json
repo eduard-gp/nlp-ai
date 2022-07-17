@@ -1,0 +1,6 @@
+{
+    "name": "diseasespersonal",
+    "entities": [
+        "person:person"
+    ]
+}

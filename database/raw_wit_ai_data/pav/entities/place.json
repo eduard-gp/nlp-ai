@@ -1,0 +1,37 @@
+{
+    "name": "place",
+    "roles": [
+        "place"
+    ],
+    "lookups": [
+        "free-text",
+        "keywords"
+    ],
+    "keywords": [
+        {
+            "keyword": "aicea",
+            "synonyms": [
+                "aicea"
+            ]
+        },
+        {
+            "keyword": "domiciliu",
+            "synonyms": [
+                "domiciliu"
+            ]
+        },
+        {
+            "keyword": "spital",
+            "synonyms": [
+                "spiral",
+                "spital"
+            ]
+        },
+        {
+            "keyword": "urgente",
+            "synonyms": [
+                "urgente"
+            ]
+        }
+    ]
+}

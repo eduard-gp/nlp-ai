@@ -6,7 +6,7 @@ import tensorflow as tf
 import tensorflow_text as text
 
 def get_idx_to_label_lookup_table(file_path):
-    with open(file_path) as f:
+    with open(file_path, encoding="utf-8") as f:
         ner_tags_data = json.load(f)
 
         idx_to_label = {}
@@ -26,7 +26,7 @@ END_PERSONA_TOKEN = "<-- END PERSONA -->"
 DESCRIPTION_TOKEN = "D:"
 LABEL_TOKEN = "L:"
 QUESTION_TOKEN = "Q:"
-ANSWEAR_TOKEN = "A:"
+ANSWER_TOKEN = "A:"
 # used to convert a label (int) predicted by the model to a label (string)
 idx_to_label = get_idx_to_label_lookup_table(ner_tags_file_path)
 
@@ -81,19 +81,34 @@ def _add_utterance_to_dialog(dialog, line, token_type, key, language, model):
 def add_question_to_dialog(dialog, line, language, model):
     return _add_utterance_to_dialog(dialog, line, QUESTION_TOKEN, "questions", language, model)
 
-def add_answear_to_dialog(dialog, line, language, model):
-    return _add_utterance_to_dialog(dialog, line, ANSWEAR_TOKEN, "answears", language, model)
+def add_answer_to_dialog(dialog, line, language, model):
+    return _add_utterance_to_dialog(dialog, line, ANSWER_TOKEN, "answers", language, model)
+
+def error_message(label, question, answear, dialog_entity):
+    message = []
+    if not label:
+        message.append("label")
+    if not question:
+        message.append("question")
+    if not answear:
+        message.append("answear")
+    return f"Not {', '.join(message)} present in {dialog_entity}"
 
 def preprocess_dialogs(file_path, model, language):
     personas = []
     dialog_entity = {}
-    with open(file_path) as f:
-        for line in f:
+    with open(file_path, encoding="utf-8") as f:
+        for i, line in enumerate(f):
             line = line.strip()
             if not line:
                 if dialog_entity:
+                    if not label_present or not question_present or not answear_present:
+                        raise Exception(f"{error_message(label_present, question_present, answear_present, dialog_entity)}")
                     persona["dialog"].append(dialog_entity)
                     dialog_entity = {}
+                    label_present = False
+                    question_present = False
+                    answear_present = False
                 continue
             elif line == START_PERSONA_TOKEN:
                 persona = {
@@ -103,13 +118,18 @@ def preprocess_dialogs(file_path, model, language):
             elif line.startswith(DESCRIPTION_TOKEN):
                 add_description_to_persona(persona, line)
             elif line.startswith(LABEL_TOKEN):
+                label_present = True
                 add_label_to_dialog(dialog_entity, line)
             elif line.startswith(QUESTION_TOKEN):
+                question_present = True
                 add_question_to_dialog(dialog_entity, line, language, model)
-            elif line.startswith(ANSWEAR_TOKEN):
-                add_answear_to_dialog(dialog_entity, line, language, model)
+            elif line.startswith(ANSWER_TOKEN):
+                answear_present = True
+                add_answer_to_dialog(dialog_entity, line, language, model)
             elif line == END_PERSONA_TOKEN:
                 personas.append(persona)
+            else:
+                raise Exception(f"No valid identifier: {i}: '{line}'")
     return personas
 
 
@@ -117,10 +137,14 @@ if __name__ == "__main__":
 
     model = tf.keras.models.load_model("../models/ner_bert_en_uncased_L-4_H-256_A-4/model")
     input_dir_path = "dialogs"
-    output_dir_path = "json"
-    input_file_path = os.path.join(input_dir_path, "en_personas.txt")
-    output_file_path = os.path.join(output_dir_path, "en_personas.json")
+    output_dir_path = "personas"
+    input_file_path = os.path.join(input_dir_path, "ro_personas.txt")
+    output_file_path = os.path.join(output_dir_path, "ro_personas.json")
     personas = preprocess_dialogs(input_file_path, model, LANGUAGE_EN)
-    with open(output_file_path, "w") as f:
+    
+    if not os.path.isdir(output_dir_path):
+        os.mkdir(output_dir_path)
+
+    with open(output_file_path, "w", encoding="utf-8") as f:
         json.dump(personas, f)
     
